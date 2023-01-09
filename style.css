@@ -22,10 +22,10 @@ body{
     width: 100%;
     padding: 3px;
     background: #fbdc00;
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'PT Sans',sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .navbar{
@@ -41,7 +41,24 @@ li{
     display: inline;
     justify-content: space-evenly;
     padding-inline: 25px;
-    font-size: 16px;
+    font-size: 15px;
+}
+
+.design{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    content: " ";
+    background-color: #fff;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+.btn-arn{
+    align-items: center;
+    justify-content: left;
+    display: flex;
 }
 
 .loginbtn{
@@ -50,7 +67,7 @@ li{
     border-color: #fbdc00;
     font-size: 14px;
     font-family: "PT Sans",sans-serif;
-    font-style: bold;
+    font-weight: bold;
     border-style: none;
 }
 
@@ -63,7 +80,7 @@ li{
     color: white;
     font-size: 14px;
     font-family: "PT Sans",sans-serif;
-    font-style: bold;
+    font-weight: bold;
     border-style: none;
 }
 
@@ -127,7 +144,7 @@ li{
     color: white;
     font-size: 14px;
     font-family: "PT Sans",sans-serif;
-    font-style: bold;
+    font-weight: bold;
     border-style: none;
 }
 
@@ -239,7 +256,7 @@ h5{
 
 
 .photobanner {
-	height: 233px;
+	height: 33px;
 	width: 100%;
 	margin-bottom: 80px;
 }
@@ -249,7 +266,7 @@ img {
   }
   
 #container {
-    height: 200px;
+    height: 20px;
     margin: 50px auto;
     width: 100%;
     background: white;
@@ -456,6 +473,88 @@ margin-left: -1125px;
     color: black;
     font-size: 14px;
     font-family: "PT Sans",sans-serif;
-    font-style: bold;
+    font-weight: bold;
     border-style: none;
+}
+
+/* BLOGS SECTION STYLING */
+
+.blog-box{
+    padding: 0px 170px;
+}
+
+.blogs{
+    padding-top: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.blog-img{
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    overflow: clip;
+}
+
+.blog-item{
+    width: calc(calc(100% / 3) - 20px);
+    margin-right: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    overflow: hidden;
+    text-align: start;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px hsl(0deg 0% 79% / 50%);
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.blog-topic{
+    font-weight: bold;
+    color: #ee3425;
+    padding: 15px;
+}
+
+.blog-name{
+    font-size: larger;
+    padding: 0px 15px;
+    font-weight: bold;
+}
+
+.blog-con{
+    font-size: 16px;
+    line-height: 23px;
+    padding: 10px 15px;
+    font-weight: lighter;
+}
+
+.blog-end{
+    padding: 10px 15px;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    font-size: smaller;
+}
+.blog-red{
+    font-weight: bold;
+    color: #ee3425;
+}
+
+.blog-date{
+    font-weight: bold;
+    color: grey;
+}
+
+.blog-btn{
+        background-color: #ee3425;
+        border-color: #ee3425;
+        border-radius: 4px !important;
+        height: 36px;
+        padding: 0px 46px;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        border-style: none;
 }
