@@ -1,0 +1,29 @@
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 100%;
+    padding: 8px 16px;
+    background: #fbdc00;
+}
+
+.navbar{
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li{
+    display: inline;
+    justify-content: space-evenly;
+}
