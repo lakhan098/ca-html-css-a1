@@ -76,8 +76,8 @@ li{
     
     height: auto;
     position: relative;
-    margin: 0px auto;
-    padding: 0px 80px;
+    margin: auto;
+    padding: 0px 90px;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -124,7 +124,7 @@ li{
 }
 
 .num-section{
-    margin: 50px 85px;
+    margin: 0px 85px;
     display: flex;
     justify-content:space-between;
     align-items:stretch;
@@ -157,4 +157,58 @@ li{
     width: 500px;
     margin-top: 40px;
     padding-left: 40px;
+}
+
+.prod-head{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.items{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    justify-self: flex-start;
+    padding: 10px;
+}
+
+.item-head{
+    font-size: 15px;
+    font-style: bold;
+    text-align: left;
+    width: 350px !important;
+    display: flex;
+    /* justify-content ; */
+    align-items: center;
+}
+
+h4{
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h5{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    color: #ee3425;
+}
+
+.item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    width: 164px;
+    height: 140px;
+    padding: 10px 7px;
+    margin: 10px;
+    background: #fff;
+    border:#fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
 }
