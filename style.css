@@ -16,10 +16,11 @@
     align-items: center;
     justify-content:space-around;
     width: 100%;
-    padding: 3px 20px 3px 10px;
+    padding: 3px;
     background: #fbdc00;
     font-size: 14px;
-    font-family: "PT Sans",sans-serif;
+    font-family: 'PT Sans',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-style: bold;
 }
 
@@ -96,17 +97,19 @@ li{
 .title{
     font-family: "Ubuntu",sans-serif;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 1000 !important;
     font-style: bold;
     margin: 0px 0px 20px;
     text-align: left;
 }
 
 .sub-head{
-    font-family: "PT Sans",sans-serif;;
-    font-size: 20px;
-    font-weight: 100;
+    font-family: "Ubuntu",sans-serif;;
+    font-size: 16px;
+    font-weight: 50;
+    line-height: 28px;
     margin: 0px 0px 20px;
+    padding-right: 100px ;
     text-align: left;
 }
 
@@ -151,6 +154,7 @@ li{
 
 .product{
     margin-top: 100px;
+    background-color:#FFFEF2;
 }
 
 .one-img{
@@ -176,7 +180,7 @@ li{
 
 .item-head{
     margin-left: 80px;
-    font-size: 15px;
+    font-size: 16px;
     font-style: bold;
     text-align: left;
     width: 350px !important;
@@ -364,4 +368,30 @@ margin-left: -1125px;
 
 .p{
    padding: 3px 0px; 
+}
+
+.iser{
+    font-size: 20px;
+    padding: 20px 150px;
+    background-color:#FFFEF2;
+}
+
+.iser-box{
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.gts{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.gts-img{
+    width: 280px;
+    height: 280px;
+    margin-top: 40px;
+    padding-left: 40px;
 }
