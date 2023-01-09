@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+/* SECTION FOR MAIN PAGE AND TOP BAR */
 .sec1{
     top: 0;
     left: 0;
@@ -63,6 +67,7 @@ li{
     border-style: none;
 }
 
+/* MAIN SECTION */
 
 .main-sec{
     margin-top: 55px;
@@ -126,6 +131,8 @@ li{
     border-style: none;
 }
 
+/* NUMBERS SECTION */
+
 .num-section{
     margin: 0px 85px;
     display: flex;
@@ -150,7 +157,7 @@ li{
     padding-bottom: 10px;
 }
 
-
+/* PRODUCTS SECTION */
 
 .product{
     margin-top: 100px;
@@ -220,6 +227,7 @@ h5{
     box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
 }
 
+/* TRUSTBY SECTION */
 
 .trustBy{
     margin-top: 0px;
@@ -260,6 +268,8 @@ margin-left: -1125px;
 }
 
 }
+
+/* READY TO GO */
 
 .ready{
     padding: 20px;
@@ -370,6 +380,8 @@ margin-left: -1125px;
    padding: 3px 0px; 
 }
 
+/* INDUSTRIES TRUSTED  */
+
 .iser{
     font-size: 20px;
     padding: 20px 150px;
@@ -394,4 +406,56 @@ margin-left: -1125px;
     height: 280px;
     margin-top: 40px;
     padding-left: 40px;
+}
+
+/* VIDEO SECTION */
+
+.vid{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* KNOW MORE */
+
+.knm{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: white;
+    background-color:#ee3425;
+    margin-bottom: 50px;
+    margin-top: -20px;
+    font-size: 10px;
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+}
+.knm-head{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 30px;
+    font-weight: 1000 !important;
+    font-style: bold;
+    margin: 0px 0px 10px;
+    text-align: left;
+}
+
+.knm-txt{
+    font-family: "Ubuntu",sans-serif;;
+    font-size: 16px;
+    font-weight: 50;
+    line-height: 28px;
+    margin: 0px 0px 20px;
+    padding-right: 100px ;
+    text-align: left;
+}
+.knmbtn{
+    background-color:#fede00;
+    border-color: #ee3425;
+    border-radius: 8px !important;
+    height: 36px;
+    padding: 4px 25px;
+    color: black;
+    font-size: 14px;
+    font-family: "PT Sans",sans-serif;
+    font-style: bold;
+    border-style: none;
 }
