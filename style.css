@@ -5,10 +5,11 @@
     z-index: 100;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:space-around;
     width: 100%;
-    padding: 8px 16px;
+    padding: 3px 20px 3px 10px;
     background: #fbdc00;
+    font-size: 14px;
 }
 
 .navbar{
@@ -18,7 +19,7 @@
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
 }
@@ -26,4 +27,94 @@ ul {
 li{
     display: inline;
     justify-content: space-evenly;
+    padding-inline: 25px;
+    font-size: 16px;
+}
+
+.loginbtn{
+    border-radius: 8px !important;
+    background-color: #fbdc00;
+    border-color: #fbdc00;
+    font-size: 14px;
+    font-family: "PT Sans",sans-serif;
+    font-style: bold;
+    border-style: none;
+    text-align: center;
+}
+
+.signinbtn{
+    background-color: #ee3425;
+    border-color: #ee3425;
+    border-radius: 8px !important;
+    height: 36px;
+    padding: 4px 16px;
+    color: white;
+    font-size: 14px;
+    font-family: "PT Sans",sans-serif;
+    font-style: bold;
+    border-style: none;
+}
+
+
+.main-sec{
+    margin-top: 55px;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.main-content{
+    background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
+    
+    background-size: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 80px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster-text{
+    text-align: left;
+}
+
+.poster-img{
+    height: 500px;
+    margin-top: 40px;
+}
+
+.title{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: bold;
+    margin: 0px 0px 20px;
+    text-align: left;
+}
+
+.sub-head{
+    font-family: "PT Sans",sans-serif;;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0px 0px 20px;
+    text-align: left;
+}
+
+.homebut{
+    background-color: #ee3425;
+    border-color: #ee3425;
+    border-radius: 8px !important;
+    height: 36px;
+    padding: 4px 16px;
+    color: white;
+    font-size: 14px;
+    font-family: "PT Sans",sans-serif;
+    font-style: bold;
+    border-style: none;
 }
