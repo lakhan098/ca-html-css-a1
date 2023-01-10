@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
 }
@@ -12,6 +16,7 @@ body{
 }
 
 .top-bar{
+    height: 60px;
     position: fixed;
     top: 0;
     left: 0;
@@ -28,8 +33,16 @@ body{
     font-weight: bold;
 }
 
+.cogo-logo{
+    padding-left: 70px;
+}
+
 .navbar{
     align-items: center;
+}
+
+.register{
+    margin-right: 80px;
 }
 
 ul {
@@ -37,12 +50,15 @@ ul {
     display: flex;
 }
 
+
+
 li{
     display: inline;
     justify-content: space-evenly;
     padding-inline: 25px;
     font-size: 15px;
 }
+
 
 .design{
     position: absolute;
@@ -62,7 +78,9 @@ li{
 }
 
 .loginbtn{
+    display: flex;
     border-radius: 8px !important;
+    align-items: center;
     background-color: #fbdc00;
     border-color: #fbdc00;
     font-size: 14px;
@@ -117,9 +135,9 @@ li{
 }
 
 .title{
-    font-family: "Ubuntu",sans-serif;
+    font-family: 'Ubuntu',sans-serif;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 600 !important;
     margin: 0px 0px 20px;
     text-align: left;
 }
@@ -150,10 +168,10 @@ li{
 /* NUMBERS SECTION */
 
 .num-section{
-    margin: 0px 100px;
+    /* margin: 0px 100px; */
     display: flex;
-    justify-content:space-between;
-    align-items:stretch;
+    justify-content:space-evenly;
+    align-items:center;
 }
 
 .numbox{
@@ -179,23 +197,34 @@ li{
     margin-top: 100px;
     background-color:#FFFEF2;
 }
+.world-img{
+    height: 300px;
+}
+
+.one-box{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 .one-img{
     width: 500px;
-    margin-top: 40px;
-    padding-left: 40px;
+    padding-top:40px;
 }
 
 
 .prod{
-    margin-top: 0px;
+    margin: auto;
+    position: relative;
     text-align: center;
-    justify-content: center;
     align-items: center;
+    align-content: center;
     background-color: #FFFEF2;
     font-family: "Ubuntu",sans-serif;
-    padding: 0px 170px;
-    padding: 0px 120px;
+    /* padding: 0px 170px;
+    padding: 0px 120px; */
 }
 
 .prod-head{
@@ -204,24 +233,33 @@ li{
     text-align: center;
 }
 
+.item-box{
+    margin: auto;
+    position: relative;
+    align-content: center;
+    width: max-content;
+}
+
 .items{
     display: flex;
     text-align: left;
     justify-content: left;
     align-items: left;
-    padding: 10px;
+    width: max-content;
 }
+
 
 .item-head{
     margin-left: 80px;
     font-size: 16px;
     font-style: bold;
     text-align: left;
-    width: 250px !important;
+    width: 350px !important;
     display: flex;
 
     justify-content: left;
     align-items: center;
+    padding-right: 20px;
 }
 
 h4{
@@ -273,7 +311,7 @@ h5{
 
 img {
     display: inline-block;
-    height: 50px;
+    /* height: 50px; */
   }
   
 #container {
@@ -300,14 +338,13 @@ margin-left: -1125px;
 /* READY TO GO */
 
 .ready{
-    padding: 20px;
     background-color: #fbdc00;
     margin-bottom: 50px;
     font-size: 20px;
 }
 .ready-box{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
 }
 
@@ -355,12 +392,12 @@ margin-left: -1125px;
     margin-bottom: 100px;
     border-radius: 10px;
     box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
-    width: 280px;
+    width: 300px;
 }
 
 .stages{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -392,7 +429,8 @@ margin-left: -1125px;
     display: flex;
     justify-content: space-between;
     margin-top: -370px;
-    padding-bottom: 300px;
+    padding-top: 20px;
+    padding-bottom: 290px;
 }
 
 .btw-arnb{
@@ -412,16 +450,24 @@ margin-left: -1125px;
 
 .iser{
     font-size: 20px;
-    padding: 20px 150px;
     background-color:#FFFEF2;
+    padding-top:20px;
+    padding-bottom: 50px;
 }
 
 .iser-box{
     padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     justify-content:space-around;
     align-items: center;
 
+}
+
+.iser-img{
+    height: 100px;
+    width: 100px;
 }
 
 .gts{
@@ -457,6 +503,11 @@ margin-left: -1125px;
     align-items: center;
     display: flex;
 }
+
+.knm-box{
+    width: 800px;
+}
+
 .knm-head{
     font-family: "Ubuntu",sans-serif;
     font-size: 30px;
@@ -573,10 +624,16 @@ margin-left: -1125px;
 .nws{
     font-family: "Ubuntu",sans-serif;
     background-color: #fede00;
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
-    padding: 30px;
+    height: 400px;
     margin-top: 50px;
+}
+
+.curve{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
 }
 
 .nws-txt{
@@ -587,6 +644,7 @@ margin-left: -1125px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 70px
 }
 
 .msg-head{
@@ -637,13 +695,19 @@ input{
     display: flex;
     font-family: "Ubuntu",sans-serif;
     background-color: #fede00;
-    padding: 30px 50px;
-    justify-content: space-around;
+    /* justify-content:space-between; */
+    text-align: left;
+    padding: 50px;
 }
 
 .sec{
     text-align: left;
     line-height: 200%;
+    /* padding-left: 100px; */
+}
+
+.info-pad{
+    padding-right:100px;
 }
 
 .sec-head{
@@ -674,18 +738,18 @@ b{
 .ports{
     display: flex;
     font-family: "Ubuntu",sans-serif;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 50px;
+    padding-top: 20px;
 }
 
 .port-box{
     background-color:#EBBE00;
-    padding: 20px 50px;
 }
 
 .end{
-    padding-top: 20px;
+    padding: 20px 50px 20px 50px;
     display: flex;
-    justify-content: space-between;
 }
 
 .cprt{
@@ -700,4 +764,9 @@ b{
     font-size: 14px;
     font-weight: bold;
     color:black;
+    padding-left: 50px;
+}
+
+.social-icons{
+    padding-left: 450px;
 }
