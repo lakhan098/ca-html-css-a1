@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -127,6 +129,7 @@ li{
 
 .poster-text{
     text-align: left;
+    width: 600px;
 }
 
 .poster-img{
@@ -170,7 +173,7 @@ li{
 .num-section{
     /* margin: 0px 100px; */
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items:center;
 }
 
@@ -194,7 +197,6 @@ li{
 /* PRODUCTS SECTION */
 
 .product{
-    margin-top: 100px;
     background-color:#FFFEF2;
 }
 .world-img{
@@ -211,7 +213,7 @@ li{
 
 .one-img{
     width: 500px;
-    padding-top:40px;
+    margin-left: 70px;
 }
 
 
@@ -234,7 +236,8 @@ li{
 }
 
 .item-box{
-    margin: auto;
+    padding-bottom: 20px;
+    margin: 0 20px;
     position: relative;
     align-content: center;
     width: max-content;
@@ -246,6 +249,7 @@ li{
     justify-content: left;
     align-items: left;
     width: max-content;
+    margin-bottom: 20px;
 }
 
 
@@ -282,8 +286,8 @@ h5{
     align-items: center;
     justify-content: space-between;
     justify-items: center;
-    width: 164px;
-    height: 140px;
+    width: 180px;
+    height: 160px;
     padding: 10px 7px;
     margin: 10px;
     background: #fff;
@@ -316,7 +320,7 @@ img {
   
 #container {
     height: 20px;
-    margin: 50px auto;
+    margin-bottom: 70px;
     width: 100%;
     background: white;
 }
@@ -340,6 +344,8 @@ margin-left: -1125px;
 .ready{
     background-color: #fbdc00;
     margin-bottom: 50px;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
     font-size: 20px;
 }
 .ready-box{
